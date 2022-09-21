@@ -33,10 +33,10 @@ nav{
     margin-right: auto;
    
 }
-/*Esconder todos los divs de fiddle al principio:*/
+/*Esconder todos los divs de fiddle al principio:
 .fiddle{
     display:none;
-}
+}*/
 
 /*se empieza el menu*/
 nav li{
