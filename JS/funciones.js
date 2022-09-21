@@ -16,11 +16,11 @@ function accion(palabra){
     for(var i=0;i<claseFid.length;i++){
         
      if (claseFid[i].id == idDiv){
-         alert("se ha mostrado " + idDiv);
+         alert("MOSTRAR el id del array actual es" + claseFid[i].id);
          mostrar(idDiv);
      }else{
         ocultar(idDiv);
-         alert("se ha borrado"+ idDiv);
+         alert("OCULTAR el id del array actual es" + claseFid[i].id);
      }           
  
  }
