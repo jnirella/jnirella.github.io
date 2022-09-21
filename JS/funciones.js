@@ -7,8 +7,10 @@ function mostrar(clave){
         var idactual=claseFid[i];
      if (claseFid[i] == nombre){
         document.getElementById(idactual).style.display="block";
+         alert("se ha mostrado");
      }else{
         document.getElementById(idactual).style.display="none";
+         alert("se ha borrado"+i);
      }           
           }
 }
