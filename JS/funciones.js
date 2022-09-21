@@ -6,10 +6,10 @@ function mostrar(clave){
     for(var i=0;i<claseFid.length;i++){
         var idactual=claseFid[i];
      if (claseFid[i] == nombre){
-        document.getElementById(idactual).style.display="block";
-         alert("se ha mostrado");
+        /*document.getElementById(idactual).style.display="block";*/
+         alert("se ha mostrado" + idactual);
      }else{
-        document.getElementById(idactual).style.display="none";
+        /*document.getElementById(idactual).style.display="none";*/
          alert("se ha borrado"+i);
      }           
           }
