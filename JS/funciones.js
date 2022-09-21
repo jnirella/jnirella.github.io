@@ -1,1 +1,4 @@
-<script async src="//jsfiddle.net/jnirella/muagxnse/73/embed/"></script>
+function mostrar(clave){
+    document.getElementsByClassName("fiddle")=element.style.display = 'none'; 
+    document.getElementById(clave)=element.style.display='block';
+}
