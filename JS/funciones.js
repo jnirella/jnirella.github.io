@@ -4,12 +4,13 @@ function mostrar(clave){
     var claseFid = document.querySelectorAll('.fiddle');
     /* Se comprueba si el ID del DIV cuadra y se muestra su contenido, sino se oculta el contenido*/
     for(var i=0;i<claseFid.length;i++){
+        var idClaseComillas="'"+claseFid[i].id+"'";
      if (claseFid[i].id == nombre){
-        document.getElementById('${claseFid.id}').style.display="block";
-         alert("se ha mostrado " + claseFid[i].id);
+        document.getElementById(idClaseComillas).style.display="block";
+         alert("se ha mostrado " + idClaseComillas);
      }else{
-        document.getElementById('${claseFid.id}').style.display="none";
-         alert("se ha borrado"+ claseFid[i].id);
+        document.getElementById(idClaseComillas).style.display="none";
+         alert("se ha borrado"+ idClaseComillas);
      }           
           }
 }
