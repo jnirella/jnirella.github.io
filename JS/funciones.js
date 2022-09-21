@@ -1,7 +1,30 @@
 function mostrar(clave){
     var nombre= clave;
     document.getElementById(nombre).style.display="block";
-    alert(nombre);
+    alert("mostrar" + nombre);
+}
+function ocultar(clave){
+    var nombre=clave;
+    document.getElementById(nombre).style.display="none";
+    alert("ocultar" + nombre);
+}
+
+function accion(palabra){
+    var idDiv=palabra;
+    claseFid = document.querySelectorAll('.fiddle');
+    
+    for(var i=0;i<claseFid.length;i++){
+        
+     if (claseFid[i].id == idDiv){
+         alert("se ha mostrado " + idDiv);
+         mostrar(idDiv);
+     }else{
+        ocultar(idDiv);
+         alert("se ha borrado"+ idDiv);
+     }           
+ 
+ }
+}
     /* Se declara variable donde se almacenaran todos los DIV con la class="fiddle"*/
     
     /*var claseFid = document.querySelectorAll('.fiddle');*/
@@ -20,7 +43,7 @@ function mostrar(clave){
  
  }
  */
-}
+
 
 
 /*prueva para recorrer todos los divs con la clase fiddle y comprobar si su id es la que se entra como parametro en la función se muestra el contenido del div, sino,
