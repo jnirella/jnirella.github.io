@@ -9,164 +9,76 @@
     }
 header{
     margin-bottom: 10px;
+    width: 1080px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+.tituloWeb{
+    color:#A52A2A;
+
 }
 nav{
     /*clear para que vuelva a seguir flujo normal despues de usar float y no se solapen las cajas*/
     width: 1080px;
     clear: both;
     height: 52px; 
-    background-color: #0B0B3B;
+    background-color: #DEB887;
     margin-left: auto;
     margin-right: auto;
    
 }
+
 /*se empieza el menu*/
 nav li{
-    width: 180px;
+    width: 360px;
     padding: 18px;
     float: left;
-    text-align: center;
-    
-    
+    text-align: center;    
+    height: 52px;
 }
+
 nav li:hover{
-    background-color: #5755AB;
-}
-nav div ul li:hover{
+    background-color: #D2691E;
     opacity: 0.5;
 }
+
 .submenu{
     display: none;
     position: absolute;
     float: left;
-    margin-top: 80px;
-   
-    
+    margin-top: 92px;
 }
+
 .menu-estatic:hover>ul{
     display: block;
-    background-color: rgba(11,11,59,0.7);
+    background-color: #DEB887(11,11,59,0.7);
     top: 50px;
 
 }
+
 .submenu_li{
-    color: #FDC52C;
+    color: #A52A2A;
     clear: both;
       
 }
+.submenu2{
+    margin-top: 18px;    
+}
+
+.submenu_li2{
+    background-color: #DEB887;
+}
+
 nav a{
-    color: #FDC52C;
+    color: #A52A2A;
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
     
-}
-/*se acaba el menu*/
-#titulo{
-    background-color: #5755AB;
-    border: 1px solid black;
-    
-}
-#titulo div h1{
-    color: white;
-    width: 1080px;
-}
-#jugadors {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-weight: bold;
-}
-div.jugador{
-    margin-top: 20px;
-    margin-right: 20px;
-    border: 1px solid #DCDCDC;
-    border-top: 2px solid black;
-    width: 250px;
-    float: left;
-    
-   
-}
-div.jugador:hover{
-    opacity: 0.6;
-}
-.jugador img{
-    height: 260px;
-    width: 250px;
-}
-div.dorsal{
-    font-size: 35px;
-    border-right: 1px #EDEDED;
-    float: left;
-    width: 60px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-div.nom-jugador{
-    font-size: 14px;
-    font-weight: bold;
-    float: right;
-    margin-top: 10px;
-    width: 180px;
-    padding-left: 10px;
-    padding-top: 25px;
-}
-div.posicion-jugador{
-    margin-bottom: 20px;
-    font-size: 12px;
-    font-weight: bold;
-    width: 180px;
-    padding-left: 10px;
-    float: right;
-}
-#cos-tecnic{
-    clear: both;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-.cos_tecnic:hover{
-    opacity: 0.6;
-}
-.cost_tecnic{
-    width: 250px;
-    
-}
-.cos_tecnic img{
-    height: 260px;
-    width: 250px;
-}
-.nom-entrenador{
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 10px;
-    width: 250px;
-    padding-top: 25px;
-}
-.cargo-entrenador{
-    font-weight: bold;
-    font-size: 12px;
-    text-align: center;
-    margin-bottom: 20px;
-    width: 250px;
-}
-footer{
-    clear: both;
-    height: 40px;
-    font-size: 12px;
-    background-color: #0B0B3B;
-    border: #DCDCDC;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    color: #FDC52C ;
-    font-weight: bold;
-
-}
-#footer{
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
