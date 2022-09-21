@@ -14,13 +14,13 @@ function accion(palabra){
     claseFid = document.querySelectorAll('.fiddle');
     
     for(var i=0;i<claseFid.length;i++){
-        
+        alert("id actual del array" + claseFid[i].id);
      if (claseFid[i].id == idDiv){
-         alert("MOSTRAR el id del array actual es" + claseFid[i].id);
-         mostrar(claseFid[i].id);
+         alert("MOSTRAR el id del array actual es" + idDiv);
+         mostrar(idDiv);
      }else{
         ocultar(claseFid[i].id);
-         alert("OCULTAR el id del array actual es" + claseFid[i].id);
+         
      }           
  
  }
