@@ -5,10 +5,10 @@ function mostrar(clave){
     /* Se comprueba si el ID del DIV cuadra y se muestra su contenido, sino se oculta el contenido*/
     for(var i=0;i<claseFid.length;i++){
      if (claseFid[i].id == nombre){
-        /*document.getElementById('claseFid.id').style.display="block";*/
-         alert("'%s'",claseFid[i].id);
+        document.getElementById('${claseFid.id}').style.display="block";
+         alert("se ha mostrado " + claseFid[i].id);
      }else{
-        /*document.getElementById('claseFid.id').style.display="none";*/
+        document.getElementById('${claseFid.id}').style.display="none";
          alert("se ha borrado"+ claseFid[i].id);
      }           
           }
