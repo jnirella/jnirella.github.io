@@ -1,6 +1,5 @@
 function mostrar(clave){
     var nombre= clave;
-    document.getElementsByClassName("fiddle").style.display="none"; 
     document.getElementById(nombre).style.display="block";
 }
 function mostrarSimple(){
