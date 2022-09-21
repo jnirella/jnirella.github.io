@@ -6,10 +6,10 @@ function mostrar(clave){
     for(var i=0;i<claseFid.length;i++){
         var idClaseComillas='"'+claseFid[i].id+'"';
      if (claseFid[i].id == nombre){
-         document.getElementById(idClaseComillas).style.display="block"; 
          alert("se ha mostrado " + idClaseComillas);
+         document.getElementById(idClaseComillas).style.display = "block";  
      }else{
-        document.getElementById(idClaseComillas).style.display="none";
+        document.getElementById(idClaseComillas).style.display = "none";
          alert("se ha borrado"+ idClaseComillas);
      }           
           }
