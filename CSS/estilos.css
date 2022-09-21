@@ -69,6 +69,7 @@ nav li:hover{
 .submenu_li{
     color: #A52A2A;
     clear: both;
+    background-color: #DEB887;
       
 }
 .submenu2{
@@ -77,6 +78,7 @@ nav li:hover{
 
 .submenu_li2{
     background-color: #DEB887;
+    color: #A52A2A;
 }
 
 nav a{
