@@ -1,4 +1,3 @@
-document.getElementsByClassName('fiddle').style.display="none"; 
 function mostrar(clave){
     var nombre= clave;
     document.getElementsByClassName("fiddle").style.display="none"; 
