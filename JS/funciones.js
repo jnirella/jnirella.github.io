@@ -4,10 +4,11 @@ function mostrar(clave){
     var claseFid = document.querySelectorAll('.fiddle');
     /* Se comprueba si el ID del DIV cuadra y se muestra su contenido, sino se oculta el contenido*/
     for(var i=0;i<claseFid.length;i++){
+        var idactual=claseFid[i];
      if (claseFid[i] == nombre){
-        document.getElementById(nombre).style.display="block";
+        document.getElementById(idactual).style.display="block";
      }else{
-        document.getElementById(nombre).style.display="none";
+        document.getElementById(idactual).style.display="none";
      }           
           }
 }
