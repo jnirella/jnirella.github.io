@@ -17,9 +17,11 @@ function mostrar(clave){
         document.getElementById(idClaseComillas).style.display = "none";
          alert("se ha borrado"+ idClaseComillas);
      }           
-          }
+ 
+ }
+ */
 }
-*/
+
 
 /*prueva para recorrer todos los divs con la clase fiddle y comprobar si su id es la que se entra como parametro en la función se muestra el contenido del div, sino,
 los demas divs se ocultan:*/
