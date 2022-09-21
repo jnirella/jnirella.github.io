@@ -17,9 +17,9 @@ function accion(palabra){
         
      if (claseFid[i].id == idDiv){
          alert("MOSTRAR el id del array actual es" + claseFid[i].id);
-         mostrar(idDiv);
+         mostrar(claseFid[i].id);
      }else{
-        ocultar(idDiv);
+        ocultar(claseFid[i].id);
          alert("OCULTAR el id del array actual es" + claseFid[i].id);
      }           
  
