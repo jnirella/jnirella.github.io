@@ -1,12 +1,4 @@
 
-#imglogo{
-    float: left;
-    width: 100px;
-    height: 80px; 
-}
-#textlogo{
-    float: right;
-    }
 header{
     margin-bottom: 10px;
     width: 1080px;
@@ -19,10 +11,16 @@ header{
     
     
 }
+/*Estilo del titulo de la web*/
 .tituloWeb{
     color:#A52A2A;
 
 }
+/*divs donde se situan los scripts de fiddle para mostrar su contenido*/
+.fiddle{
+    width: 1080px;
+}
+/*navegador (menú desplegable)*/
 nav{
     /*clear para que vuelva a seguir flujo normal despues de usar float y no se solapen las cajas*/
     width: 1080px;
