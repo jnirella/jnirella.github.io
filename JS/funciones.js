@@ -1,8 +1,26 @@
-document.getElementsByClassName("fiddle")=element.style.display = "none"; 
+/*funcion para mostrar el contenido del div, como parametro el ID*/
 function mostrar(clave){
-    document.getElementsByClassName("fiddle")=element.style.display = "none"; 
-    document.getElementById(clave)=element.style.display="block";
+    var nombre= clave;
+    document.getElementById(nombre).style.display="block";
 }
-function mostrarSimple(){
-    document.getElementById("fiddle").innerHTML= '<script async src="//jsfiddle.net/jnirella/muagxnse/73/embed/js,html,css,result/dark/">';
+
+/*funcion para ocultar el contenido del div, como parametro el ID*/
+function ocultar(clave){
+    var nombre=clave;
+    document.getElementById(nombre).style.display="none";
+ }
+
+/*funcion para comprobar todos los divs de la misma clase y comprobar id por id cual es el correcto para mostrar. los demas se ocultan*/
+function accion(palabra){
+    var idDiv=palabra;
+    claseFid = document.querySelectorAll('.fiddle');
+    
+    for(var i=0;i<claseFid.length;i++){ 
+     if (claseFid[i].id == idDiv){
+         mostrar(idDiv);
+     }else{
+        ocultar(claseFid[i].id);
+         
+     } 
+ }
 }
