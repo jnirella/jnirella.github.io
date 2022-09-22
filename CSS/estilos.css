@@ -16,6 +16,15 @@ header{
     color:#A52A2A;
 
 }
+/*Estilos de subtitulos*/
+h2{
+    color:#A52A2A;
+    font-size: 2em; 
+}
+h3{
+    color:#A52A2A;
+    font-size: 1em; 
+}
 /*divs donde se situan los scripts de fiddle para mostrar su contenido*/
 .fiddle{
     width: 1080px;
