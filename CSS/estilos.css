@@ -27,7 +27,7 @@ header{
     
 }
 /*div que contiene la información de la presentación dentro de html description.html*/
-.description{
+#description{
     width: 1080px;
     clear:both;
     margin-left: auto;
