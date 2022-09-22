@@ -19,6 +19,10 @@ header{
 /*divs donde se situan los scripts de fiddle para mostrar su contenido*/
 .fiddle{
     width: 1080px;
+    clear:both;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 /*navegador (menú desplegable)*/
 nav{
