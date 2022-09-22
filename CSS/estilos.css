@@ -21,11 +21,15 @@ h2{
     color:#A52A2A;
     font-size: 25px; 
     padding: 18px;
+    font-weight: 700;
+    font-variant: small-caps;
 }
 h3{
     color:#A52A2A;
     font-size: 20px; 
     padding: 18px;
+    font-variant: small-caps;
+    font-weight: 700;
 }
 /*divs donde se situan los scripts de fiddle para mostrar su contenido*/
 .fiddle{
