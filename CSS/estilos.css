@@ -73,41 +73,43 @@ nav li{
 }
 
 nav li:hover{
-    background-color: #D2691E;
-    opacity: 0.8;
+    background-color: #e7dfdbd7;
+    
 }
 
-.submenu{
-    display: none;
-    position: absolute;
-    float: left;
-    margin-top: 92px;
-}
-
-.menu-estatic:hover>ul{
+ul li:hover>ul{
     display: block;
-    background-color: #DEB887(11,11,59,0.7);
+    background-color: #e7dfdbd7;
     top: 50px;
 
 }
 
-.submenu_li{
-    color: #A52A2A;
-    clear: both;
-    background-color: #DEB887;
-      
-}
-.submenu2{
-    margin-top: 18px;    
+ul li ul{
+    display: none;
+    position: absolute;
+    float: left;
+    margin-top: 92px;
+    
 }
 
-.submenu_li2{
-    background-color: #DEB887;
-    color: #A52A2A;
+ul li ul li{
+    color: black;
+    clear: both;
+    background-color: #e7dfdb;
+      
+}
+ul li ul li ul{
+    margin-top: 2px;  
+    
+}
+
+ul li ul li ul li{
+    background-color: #e7dfdb;
+    color: black;
 }
 
 nav a{
-    color: #A52A2A;
+    color: black;
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;

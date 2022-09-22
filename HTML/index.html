@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jnirella site</title>
-    <link href="../CSS/reset.css" rel="stylesheet" type="text/css">
-    <link href="../CSS/estilos.css" rel="stylesheet" type="text/css">
-    <script language="JavaScript" src="../JS/funciones.js"></script>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jnirella site</title>
+  <link href="../CSS/reset.css" rel="stylesheet" type="text/css">
+  <link href="../CSS/estilos.css" rel="stylesheet" type="text/css">
+  <script language="JavaScript" src="../JS/funciones.js"></script>
 </head>
 
 <body>
   <header>
     <h1 class="tituloWeb" onclick="accion('intro')">Web Jnirella :)</h1>
   </header>
-    <nav>
-        <div id="div">
-            <ul>
-              <li class="menu-estatic"><a href="./portfolio.html" target="_blank">PORTFOLIO</li>
-                <li class="menu-estatic"><a href="https://jsfiddle.net/user/fiddles/all/?search%5Bq%5D=php&search%5Bfilter%5D=all" target="_blank">ENTORNO SERVIDOR</a>
-                  <ul class="submenu">
-                        <li class="submenu_li"> <p>PHP</p> </li>
-                  </ul>
-                </li>
-                <li class="menu-estatic"><a>ENTORNO CLIENTE</a>
-                    <ul class="submenu">
-                        <li class="submenu_li"> <p>JavaScript:</p> 
-                          <ul class="submenu2">
-                            <li class="submenu_li2"> <p onclick="accion('simple')">Estructuras almacenamiento simples </p> </li>
-                            <li class="submenu_li2"> <p onclick="accion('compleja')">Estructuras almacenamiento complejas</p></li>
-                          </ul>
-                        </li>
-                    </ul>
-                </li>
+  
+    <div id="div">
+      <nav>
+      <ul>
+        <li class="menu-estatic"><a href="./portfolio.html" target="_blank">PORTFOLIO</li>
+        <li class="menu-estatic"><a href="https://jsfiddle.net/user/fiddles/all/?search%5Bq%5D=php&search%5Bfilter%5D=all" 
+          target="_blank">ENTORNO SERVIDOR</a>
+          <ul class="submenu">
+            <li class="submenu_li"> <a>PHP</a> </li>
+          </ul>
+        </li>
+        <li class="menu-estatic"><a>ENTORNO CLIENTE</a>
+          <ul class="submenu">
+            <li class="submenu_li"> <a>JavaScript:</a>
+              <ul class="submenu2">
+                <li class="submenu_li2"> <a onclick="accion('simple')">Estructuras almacenamiento simples </a> </li>
+                <li class="submenu_li2"> <a onclick="accion('compleja')">Estructuras almacenamiento complejas</a></li>
               </ul>
-        </div>  
+            </li>
+          </ul>
+        </li>
+      </ul>
     </nav>
-  <div class ="fiddle" id = "simple" style="display:none;"><script async src="//jsfiddle.net/jnirella/muagxnse/73/embed/"></script></div>
-  <div class ="fiddle" id = "compleja" style="display:none;"><script async src="//jsfiddle.net/jnirella/xy94ag7z/65/embed/"></script></div>
-  <div class ="fiddle" id = "intro" style="display:block;"><object type="text/html" data="./description.html" width="100%" height="400"></object></div>
+    </div>
+  
+  <div class="fiddle" id="simple" style="display:none;">
+    <script async src="//jsfiddle.net/jnirella/muagxnse/73/embed/"></script>
+  </div>
+  <div class="fiddle" id="compleja" style="display:none;">
+    <script async src="//jsfiddle.net/jnirella/xy94ag7z/65/embed/"></script>
+  </div>
+  <div class="fiddle" id="intro" style="display:block;"><object type="text/html" data="./description.html" width="100%"
+      height="400"></object></div>
 </body>
+
 </html>
