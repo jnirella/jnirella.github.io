@@ -16,7 +16,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	/*se aplica fuente predeterminada*/
-	font: arial, geneva,serif;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	vertical-align: baseline;
 	
 }
