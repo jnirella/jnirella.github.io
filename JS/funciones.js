@@ -24,3 +24,7 @@ function accion(palabra){
      } 
  }
 }
+/*Cargar descripción personal desde otro HTML debajo de nav en un div*/
+function load_home() {
+    document.getElementById("intro").innerHTML='<object type="text/html" data="h./description.html" ></object>';
+}
