@@ -31,7 +31,7 @@ h1{
 	box-sizing: border-box;
 }
 /*se aplica el lainiamiento centrado a header, nav y section principal*/
-#header,#nav,#principal {
+#header,#nav,#principal,.fiddle{
 	width: 1080px;
 	text-align: center;
 	
