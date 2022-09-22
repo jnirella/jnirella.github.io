@@ -1,4 +1,4 @@
-document.getElementById("intro").innerHTML='<object type="text/html" data="./description.html" ></object>';
+/*document.getElementById("intro").innerHTML='<object type="text/html" data="./description.html" ></object>';*/
 /*funcion para mostrar el contenido del div, como parametro el ID*/
 function mostrar(clave){
     var nombre= clave;
