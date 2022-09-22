@@ -21,9 +21,9 @@ time, mark, audio, video {
 	
 }
 /*se aplica parametros para h1*/
-h1{
+h1,h2,h3{
 	font-size: 3em;
-	color: #29283D;
+	color: #A52A2A;;
 
 }
 /*se aplica box-sizing a todos los elementos*/
@@ -31,7 +31,7 @@ h1{
 	box-sizing: border-box;
 }
 /*se aplica el lainiamiento centrado a header, nav y section principal*/
-#header,#nav,#principal,.fiddle{
+#header,#nav,#principal{
 	width: 1080px;
 	text-align: center;
 	

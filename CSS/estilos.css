@@ -22,7 +22,18 @@ header{
     clear:both;
     margin-left: auto;
     margin-right: auto;
+    width: 1080px;
+	text-align: center;
     
+}
+/*div que contiene la información de la presentación dentro de html description.html*/
+.description{
+    width: 1080px;
+    clear:both;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+
 }
 /*navegador (menú desplegable)*/
 nav{
