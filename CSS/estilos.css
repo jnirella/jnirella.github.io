@@ -74,6 +74,7 @@ nav ul >li{
 
 nav ul li a{
     display: block;
+    text-decoration: none;
     width: 360px;
     padding: 18px;
     text-align: center;    
