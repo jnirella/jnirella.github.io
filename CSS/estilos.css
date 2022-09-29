@@ -64,12 +64,30 @@ nav{
 }
 
 /*se empieza el menu*/
-nav li{
+ol, ul {
+	text-decoration:none;
+    list-style:none;
+}
+nav ul >li{
+    float:left;
+}
+
+nav ul li a{
+    display: block;
     width: 360px;
     padding: 18px;
-    float: left;
     text-align: center;    
     height: 52px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    
 }
 
 nav li:hover{
@@ -80,38 +98,9 @@ nav li:hover{
 ul li:hover>ul{
     display: block;
     background-color: #e7dfdbd7;
-    top: 50px;
-
 }
 
-ul li ul{
-    display: none;
-    position: absolute;
-    float: left;
-    margin-top: 92px;
-    
-}
 
-ul li ul li{
-    color: black;
-    clear: both;
-    background-color: #e7dfdb;
-      
-}
-ul li ul li ul{
-    margin-top: 2px;  
-    
-}
 
-ul li ul li ul li{
-    background-color: #e7dfdb;
-    color: black;
-}
 
-nav a{
-    color: black;
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none;
-    
-}
+
