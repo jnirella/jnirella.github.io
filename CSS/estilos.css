@@ -62,8 +62,11 @@ nav{
     margin-right: auto;
    
 }
-
+#div,header{
+    background-color: #e7dfdb;
+}
 /*se empieza el menu*/
+
 ol:hover,ul:hover{
     cursor: pointer
 }
