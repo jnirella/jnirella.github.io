@@ -64,6 +64,9 @@ nav{
 }
 
 /*se empieza el menu*/
+ol:hover,ul:hover{
+    cursor: pointer
+}
 ol, ul {
 	text-decoration:none;
     list-style:none;
@@ -93,12 +96,13 @@ nav li ul{
 
 nav li:hover{
     background-color: #e7dfdbd7;
-    
+    cursor: pointer;
 }
 
 ul li:hover>ul{
     display: block;
     background-color: #e7dfdbd7;
+    cursor: pointer
 }
 
 
